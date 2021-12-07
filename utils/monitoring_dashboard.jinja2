@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+     <title>{{ title }}</title>
+
+    <script>
+      function showOverlay(dsName) {
+        var element = document.getElementById(dsName);
+        element.style.display = "block";
+        location.hash = dsName
+      }
+      function hideOverlay(dsName) {
+        var element = document.getElementById(dsName);
+        element.style.display = "none";
+        location.hash = ""
+      }
+    </script>
+  </head>
+
+  <style>
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      body {
+        background-color: #000000;
+        color: #FFFFFF;
+        font-family: monospace;
+        font-size: 12pt;
+      }
+      .name:hover > a {
+        color: orange;
+      }
+      .clickHere:hover > a {
+        color: orange;
+      }
+      .overlay {
+        position: fixed;
+        display: none;
+        width: 80%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        padding-left: 24px;
+        background-color: rgba(20,30,45,0.9);
+        z-index: 2;
+        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        overflow: auto;
+      }
+      .overlayHeader {
+        position: sticky;
+        background-color: rgba(20,30,45);
+        text-decoration: bold;
+        z-index: 3;
+        top: 0;
+      }
+      .overlayHeader > h2 {
+        display: inline-block;
+        width: 93%;
+      }
+      .closeButton {
+        display: inline-block;
+        cursor: pointer;
+      }
+      .alert {
+        padding: 20px;
+        background-color: #f44336;
+        font-family: monospace;
+        text-decoration: bold;
+        color: white;
+        margin-bottom: 15px;
+        display: none;
+      }
+      .archive {
+        background-color: #616100;
+      }
+      .old_data {
+        background-color: #f44336;
+      }
+      .title {
+        display: inline-block;
+      }
+      .title > a {
+        color: #FFA500;
+      }
+      @keyframes blinker {
+        to {
+          opacity: 0;
+        }
+      }
+      @keyframes rotate {
+        to {
+          transform: rotateY(90deg);
+        }
+      }
+      @keyframes jump {
+        to {
+          transform: translateY(4px);
+        }
+      }
+  </style>
+
+  <body class="p-3 mb-2 bg-dark text-white">
+
+      <h2 class="title">{{ title }}
+      </h2>
+      <div><br><br><br>
+      <table class="table table-dark">
+        <thead>
+          <tr>
+              <th scope="col">SITE</th>
+              <th scope="col">LAST UPDATE</th>
+              <th scope="col">REQUEST TIME</th>
+              <th scope="col">HTTP STATUS CODE</th>
+              <th scope="col">HTTP STATUS NAME</th>
+              <th scope="col">CONTENT VALIDATION</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for item in items %}
+          <tr>
+            <td>
+              <div onClick="showOverlay('#{{ item.site }}')" class="name"><a href="#{{ item.site }}">{{ item.site }}</a></div>
+              <div class="overlay" id="#{{ item.site }}">
+                  <div class="overlayHeader"><h2>{{ item.site }}</h2><button class="closeButton" onClick="hideOverlay('#{{ item.site }}')">CLOSE</button></div>
+              <br><br>
+              <h5>Site Status:</h5>
+              <p>{{ item.site }}: {{ item.http_status_code }}</p>
+              <p>Last Updated: {{ item.last_update }}</p>
+              <br>
+              <h5>Underlying Datasets:</h5>
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">SITE</th>
+                      <th scope="col">LAST UPDATE</th>
+                      <th scope="col">REQUEST TIME</th>
+                      <th scope="col">HTTP STATUS CODE</th>
+                      <th scope="col">HTTP STATUS NAME</th>
+                      <th scope="col">CONTENT VALIDATION</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for meta in item.meta %}
+                      <tr>
+                        <td> {{meta.site}} </td>
+                        <td> {{meta.last_update}}</td>
+                        <td> {{meta.requst_time}}</td>
+                        <td> {{meta.http_status_code}}</td>
+                        <td> {{meta.http_status_name}}</td>
+                        {% if meta.content_validation == "SUCCESS" %}
+                            <td><div class="d-inline p-2 bg-success text-white">SUCCESS</div></td>
+                        {% elif meta.content_validation  == "FAIL" %}
+                            <td><div class="d-inline p-2 bg-danger text-white">FAIL</div></td>
+                        {% else %}
+                            <td><div class="d-inline p-2 bg-warning text-white">{{ meta.content_validation }}</div></td>
+                        {% endif %}
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </td>
+            <td>{{ item.last_update }}</td>
+            <td>{{ item.requst_time }}</td>
+            <td>{{ item.http_status_code }}</td>
+            <td>{{ item.http_status_name }}</td>
+            {% if item.content_validation == "SUCCESS" %}
+                <td><div class="d-inline p-2 bg-success text-white">SUCCESS</div></td>
+            {% elif item.content_validation  == "FAIL" %}
+                <td><div class="d-inline p-2 bg-danger text-white">FAIL</div></td>
+            {% else %}
+                <td><div class="d-inline p-2 bg-warning text-white">{{ item.content_validation }}</div></td>
+            {% endif %}      
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

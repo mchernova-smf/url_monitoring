@@ -1,0 +1,1092 @@
+2021-12-07 21:58:01,685 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 21:58:01,686 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 21:58:01,686 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 21:58:02,020 - url monitoring - INFO -    Request time: 0.33 seconds
+2021-12-07 21:58:02,020 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 21:58:02,020 - url monitoring - INFO -    Validate content
+2021-12-07 21:58:02,102 - url monitoring - INFO -    Insert record to database
+2021-12-07 21:58:02,114 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 21:58:02,254 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 21:58:02,254 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 21:58:02,254 - url monitoring - INFO -    Validate content
+2021-12-07 21:58:02,305 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 21:58:02,305 - url monitoring - INFO -    Insert record to database
+2021-12-07 21:58:02,315 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 21:58:02,621 - url monitoring - INFO -    Request time: 0.31 seconds
+2021-12-07 21:58:02,622 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 21:58:02,623 - url monitoring - INFO -    Validate content
+2021-12-07 21:58:03,163 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 21:58:03,163 - url monitoring - INFO -    Insert record to database
+2021-12-07 21:58:03,443 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 21:58:03,856 - url monitoring - INFO -    Request time: 0.40 seconds
+2021-12-07 21:58:03,857 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 21:58:03,857 - url monitoring - INFO -    Validate content
+2021-12-07 21:58:04,109 - url monitoring - INFO -    Insert record to database
+2021-12-07 21:58:04,113 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 21:58:04,260 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:01:01,836 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:01:01,836 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:01:01,837 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:01:02,085 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:01:02,086 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:01:02,086 - url monitoring - INFO -    Validate content
+2021-12-07 22:01:02,176 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:01:02,181 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:01:02,388 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:01:02,389 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:01:02,389 - url monitoring - INFO -    Validate content
+2021-12-07 22:01:02,450 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:01:02,450 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:01:02,455 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:01:02,708 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:01:02,708 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:01:02,708 - url monitoring - INFO -    Validate content
+2021-12-07 22:01:02,822 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:01:02,822 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:01:02,826 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:01:03,081 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:01:03,081 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:01:03,081 - url monitoring - INFO -    Validate content
+2021-12-07 22:01:03,187 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:01:03,198 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:01:03,201 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:02:00,945 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:02:00,945 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:02:00,945 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:02:01,158 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:02:01,159 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:02:01,159 - url monitoring - INFO -    Validate content
+2021-12-07 22:02:01,223 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:02:01,227 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:02:01,360 - url monitoring - INFO -    Request time: 0.13 seconds
+2021-12-07 22:02:01,360 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:02:01,360 - url monitoring - INFO -    Validate content
+2021-12-07 22:02:01,407 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:02:01,407 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:02:01,411 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:02:01,627 - url monitoring - INFO -    Request time: 0.22 seconds
+2021-12-07 22:02:01,627 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:02:01,627 - url monitoring - INFO -    Validate content
+2021-12-07 22:02:02,022 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:02:02,022 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:02:02,047 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:02:02,298 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:02:02,299 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:02:02,299 - url monitoring - INFO -    Validate content
+2021-12-07 22:02:02,440 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:02:02,445 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:02:02,449 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:03:00,437 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:03:00,437 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:03:00,437 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:03:00,700 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:03:00,701 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:03:00,701 - url monitoring - INFO -    Validate content
+2021-12-07 22:03:00,769 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:03:00,773 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:03:00,911 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:03:00,911 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:03:00,911 - url monitoring - INFO -    Validate content
+2021-12-07 22:03:00,953 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:03:00,954 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:03:00,958 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:03:01,144 - url monitoring - INFO -    Request time: 0.19 seconds
+2021-12-07 22:03:01,144 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:03:01,145 - url monitoring - INFO -    Validate content
+2021-12-07 22:03:01,208 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:03:01,208 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:03:01,211 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:03:01,433 - url monitoring - INFO -    Request time: 0.22 seconds
+2021-12-07 22:03:01,433 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:03:01,433 - url monitoring - INFO -    Validate content
+2021-12-07 22:03:01,488 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:03:01,492 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:03:01,495 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:04:01,940 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:04:01,941 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:04:01,943 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:04:02,226 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:04:02,227 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:04:02,227 - url monitoring - INFO -    Validate content
+2021-12-07 22:04:02,314 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:04:02,318 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:04:02,492 - url monitoring - INFO -    Request time: 0.17 seconds
+2021-12-07 22:04:02,493 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:04:02,493 - url monitoring - INFO -    Validate content
+2021-12-07 22:04:02,554 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:04:02,554 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:04:02,558 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:04:02,775 - url monitoring - INFO -    Request time: 0.22 seconds
+2021-12-07 22:04:02,775 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:04:02,775 - url monitoring - INFO -    Validate content
+2021-12-07 22:04:02,892 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:04:02,892 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:04:02,894 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:04:03,115 - url monitoring - INFO -    Request time: 0.22 seconds
+2021-12-07 22:04:03,117 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:04:03,117 - url monitoring - INFO -    Validate content
+2021-12-07 22:04:03,343 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:04:03,353 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:04:03,357 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:05:01,164 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:05:01,165 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:05:01,166 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:05:01,490 - url monitoring - INFO -    Request time: 0.32 seconds
+2021-12-07 22:05:01,490 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:05:01,490 - url monitoring - INFO -    Validate content
+2021-12-07 22:05:01,606 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:05:01,610 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:05:01,762 - url monitoring - INFO -    Request time: 0.15 seconds
+2021-12-07 22:05:01,762 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:05:01,763 - url monitoring - INFO -    Validate content
+2021-12-07 22:05:01,819 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:05:01,820 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:05:01,825 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:05:02,063 - url monitoring - INFO -    Request time: 0.24 seconds
+2021-12-07 22:05:02,063 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:05:02,063 - url monitoring - INFO -    Validate content
+2021-12-07 22:05:02,146 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:05:02,146 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:05:02,163 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:05:02,743 - url monitoring - INFO -    Request time: 0.58 seconds
+2021-12-07 22:05:02,743 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:05:02,743 - url monitoring - INFO -    Validate content
+2021-12-07 22:05:02,853 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:05:02,856 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:05:02,860 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:06:01,011 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:06:01,011 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:06:01,012 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:06:01,268 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:06:01,269 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:06:01,269 - url monitoring - INFO -    Validate content
+2021-12-07 22:06:01,363 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:06:01,366 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:06:01,537 - url monitoring - INFO -    Request time: 0.17 seconds
+2021-12-07 22:06:01,537 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:06:01,538 - url monitoring - INFO -    Validate content
+2021-12-07 22:06:01,598 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:06:01,599 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:06:01,604 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:06:01,812 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:06:01,812 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:06:01,812 - url monitoring - INFO -    Validate content
+2021-12-07 22:06:01,908 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:06:01,908 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:06:01,912 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:06:02,144 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:06:02,152 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:06:02,152 - url monitoring - INFO -    Validate content
+2021-12-07 22:06:02,252 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:06:02,256 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:06:02,258 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:07:00,583 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:07:00,583 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:07:00,584 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:07:00,831 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:07:00,832 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:07:00,832 - url monitoring - INFO -    Validate content
+2021-12-07 22:07:00,923 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:07:00,927 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:07:01,084 - url monitoring - INFO -    Request time: 0.16 seconds
+2021-12-07 22:07:01,084 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:07:01,084 - url monitoring - INFO -    Validate content
+2021-12-07 22:07:01,142 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:07:01,142 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:07:01,147 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:07:01,414 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:07:01,415 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:07:01,415 - url monitoring - INFO -    Validate content
+2021-12-07 22:07:01,660 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:07:01,660 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:07:01,665 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:07:01,936 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:07:01,936 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:07:01,937 - url monitoring - INFO -    Validate content
+2021-12-07 22:07:02,020 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:07:02,024 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:07:02,027 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:08:01,536 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:08:01,536 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:08:01,539 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:08:01,834 - url monitoring - INFO -    Request time: 0.29 seconds
+2021-12-07 22:08:01,834 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:08:01,834 - url monitoring - INFO -    Validate content
+2021-12-07 22:08:01,926 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:08:01,936 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:08:02,084 - url monitoring - INFO -    Request time: 0.15 seconds
+2021-12-07 22:08:02,084 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:08:02,084 - url monitoring - INFO -    Validate content
+2021-12-07 22:08:02,143 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:08:02,143 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:08:02,155 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:08:02,351 - url monitoring - INFO -    Request time: 0.20 seconds
+2021-12-07 22:08:02,351 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:08:02,351 - url monitoring - INFO -    Validate content
+2021-12-07 22:08:02,498 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:08:02,498 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:08:02,550 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:08:02,947 - url monitoring - INFO -    Request time: 0.40 seconds
+2021-12-07 22:08:02,947 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:08:02,947 - url monitoring - INFO -    Validate content
+2021-12-07 22:08:03,154 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:08:03,159 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:08:03,161 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:09:02,016 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:09:02,017 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:09:02,019 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:09:02,338 - url monitoring - INFO -    Request time: 0.32 seconds
+2021-12-07 22:09:02,338 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:09:02,338 - url monitoring - INFO -    Validate content
+2021-12-07 22:09:02,446 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:09:02,460 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:09:02,603 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:09:02,603 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:09:02,604 - url monitoring - INFO -    Validate content
+2021-12-07 22:09:02,644 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:09:02,644 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:09:02,650 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:09:02,828 - url monitoring - INFO -    Request time: 0.18 seconds
+2021-12-07 22:09:02,828 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:09:02,828 - url monitoring - INFO -    Validate content
+2021-12-07 22:09:02,916 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:09:02,916 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:09:02,918 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:09:03,144 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:09:03,144 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:09:03,146 - url monitoring - INFO -    Validate content
+2021-12-07 22:09:03,826 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:09:03,831 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:09:03,836 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:10:01,079 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:10:01,080 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:10:01,081 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:10:01,503 - url monitoring - INFO -    Request time: 0.42 seconds
+2021-12-07 22:10:01,504 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:10:01,504 - url monitoring - INFO -    Validate content
+2021-12-07 22:10:01,683 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:10:01,699 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:10:01,904 - url monitoring - INFO -    Request time: 0.20 seconds
+2021-12-07 22:10:01,905 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:10:01,905 - url monitoring - INFO -    Validate content
+2021-12-07 22:10:01,994 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:10:01,994 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:10:02,016 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:10:02,304 - url monitoring - INFO -    Request time: 0.29 seconds
+2021-12-07 22:10:02,304 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:10:02,304 - url monitoring - INFO -    Validate content
+2021-12-07 22:10:02,608 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:10:02,608 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:10:02,613 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:10:03,504 - url monitoring - INFO -    Request time: 0.89 seconds
+2021-12-07 22:10:03,504 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:10:03,505 - url monitoring - INFO -    Validate content
+2021-12-07 22:10:03,767 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:10:03,773 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:10:03,781 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:11:01,388 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:11:01,391 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:11:01,393 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:11:01,649 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:11:01,649 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:11:01,649 - url monitoring - INFO -    Validate content
+2021-12-07 22:11:01,733 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:11:01,743 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:11:01,877 - url monitoring - INFO -    Request time: 0.13 seconds
+2021-12-07 22:11:01,877 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:11:01,878 - url monitoring - INFO -    Validate content
+2021-12-07 22:11:01,937 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:11:01,938 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:11:01,943 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:11:02,242 - url monitoring - INFO -    Request time: 0.30 seconds
+2021-12-07 22:11:02,242 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:11:02,243 - url monitoring - INFO -    Validate content
+2021-12-07 22:11:02,342 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:11:02,342 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:11:02,347 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:11:02,608 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:11:02,608 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:11:02,608 - url monitoring - INFO -    Validate content
+2021-12-07 22:11:02,726 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:11:02,730 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:11:02,735 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:12:02,284 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:12:02,286 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:12:02,287 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:12:02,619 - url monitoring - INFO -    Request time: 0.33 seconds
+2021-12-07 22:12:02,619 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:12:02,619 - url monitoring - INFO -    Validate content
+2021-12-07 22:12:02,705 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:12:02,711 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:12:03,012 - url monitoring - INFO -    Request time: 0.30 seconds
+2021-12-07 22:12:03,012 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:12:03,013 - url monitoring - INFO -    Validate content
+2021-12-07 22:12:03,144 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:12:03,144 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:12:03,159 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:12:03,406 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:12:03,407 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:12:03,407 - url monitoring - INFO -    Validate content
+2021-12-07 22:12:03,716 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:12:03,716 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:12:03,720 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:12:04,112 - url monitoring - INFO -    Request time: 0.39 seconds
+2021-12-07 22:12:04,112 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:12:04,113 - url monitoring - INFO -    Validate content
+2021-12-07 22:12:04,250 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:12:04,254 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:12:04,260 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:13:01,562 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:13:01,562 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:13:01,563 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:13:01,857 - url monitoring - INFO -    Request time: 0.29 seconds
+2021-12-07 22:13:01,857 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:13:01,857 - url monitoring - INFO -    Validate content
+2021-12-07 22:13:01,977 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:13:01,996 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:13:02,169 - url monitoring - INFO -    Request time: 0.17 seconds
+2021-12-07 22:13:02,169 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:13:02,169 - url monitoring - INFO -    Validate content
+2021-12-07 22:13:02,226 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:13:02,226 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:13:02,232 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:13:02,517 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:13:02,517 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:13:02,517 - url monitoring - INFO -    Validate content
+2021-12-07 22:13:02,615 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:13:02,615 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:13:02,626 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:13:03,754 - url monitoring - INFO -    Request time: 1.13 seconds
+2021-12-07 22:13:03,754 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:13:03,754 - url monitoring - INFO -    Validate content
+2021-12-07 22:13:03,969 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:13:03,974 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:13:03,978 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:14:01,274 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:14:01,275 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:14:01,275 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:14:01,557 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:14:01,557 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:14:01,558 - url monitoring - INFO -    Validate content
+2021-12-07 22:14:01,645 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:14:01,649 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:14:01,783 - url monitoring - INFO -    Request time: 0.13 seconds
+2021-12-07 22:14:01,783 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:14:01,783 - url monitoring - INFO -    Validate content
+2021-12-07 22:14:01,838 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:14:01,838 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:14:01,842 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:14:02,142 - url monitoring - INFO -    Request time: 0.30 seconds
+2021-12-07 22:14:02,142 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:14:02,142 - url monitoring - INFO -    Validate content
+2021-12-07 22:14:02,537 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:14:02,537 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:14:02,541 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:14:02,888 - url monitoring - INFO -    Request time: 0.35 seconds
+2021-12-07 22:14:02,888 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:14:02,888 - url monitoring - INFO -    Validate content
+2021-12-07 22:14:03,071 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:14:03,099 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:14:03,104 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:15:01,124 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:15:01,124 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:15:01,124 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:15:01,456 - url monitoring - INFO -    Request time: 0.33 seconds
+2021-12-07 22:15:01,456 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:15:01,457 - url monitoring - INFO -    Validate content
+2021-12-07 22:15:01,556 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:15:01,560 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:15:01,697 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:15:01,697 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:15:01,698 - url monitoring - INFO -    Validate content
+2021-12-07 22:15:01,752 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:15:01,752 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:15:01,757 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:15:03,567 - url monitoring - INFO -    Request time: 1.81 seconds
+2021-12-07 22:15:03,567 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:15:03,567 - url monitoring - INFO -    Validate content
+2021-12-07 22:15:03,668 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:15:03,669 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:15:03,671 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:15:04,473 - url monitoring - INFO -    Request time: 0.80 seconds
+2021-12-07 22:15:04,473 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:15:04,474 - url monitoring - INFO -    Validate content
+2021-12-07 22:15:04,572 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:15:04,576 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:15:04,579 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:16:00,633 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:16:00,633 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:16:00,634 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:16:01,022 - url monitoring - INFO -    Request time: 0.39 seconds
+2021-12-07 22:16:01,022 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:16:01,022 - url monitoring - INFO -    Validate content
+2021-12-07 22:16:01,175 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:16:01,177 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:16:01,293 - url monitoring - INFO -    Request time: 0.12 seconds
+2021-12-07 22:16:01,293 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:16:01,293 - url monitoring - INFO -    Validate content
+2021-12-07 22:16:01,344 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:16:01,344 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:16:01,349 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:16:01,643 - url monitoring - INFO -    Request time: 0.29 seconds
+2021-12-07 22:16:01,643 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:16:01,643 - url monitoring - INFO -    Validate content
+2021-12-07 22:16:01,754 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:16:01,754 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:16:01,760 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:16:02,551 - url monitoring - INFO -    Request time: 0.79 seconds
+2021-12-07 22:16:02,551 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:16:02,551 - url monitoring - INFO -    Validate content
+2021-12-07 22:16:02,685 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:16:02,691 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:16:02,721 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:17:01,653 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:17:01,655 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:17:01,656 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:17:03,005 - url monitoring - INFO -    Request time: 1.35 seconds
+2021-12-07 22:17:03,005 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:17:03,005 - url monitoring - INFO -    Validate content
+2021-12-07 22:17:03,102 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:17:03,110 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:17:03,336 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:17:03,336 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:17:03,336 - url monitoring - INFO -    Validate content
+2021-12-07 22:17:03,447 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:17:03,447 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:17:03,456 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:17:03,794 - url monitoring - INFO -    Request time: 0.34 seconds
+2021-12-07 22:17:03,795 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:17:03,795 - url monitoring - INFO -    Validate content
+2021-12-07 22:17:03,896 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:17:03,897 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:17:03,903 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:17:04,434 - url monitoring - INFO -    Request time: 0.53 seconds
+2021-12-07 22:17:04,434 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:17:04,438 - url monitoring - INFO -    Validate content
+2021-12-07 22:17:04,681 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:17:04,688 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:17:04,695 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:18:00,880 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:18:00,880 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:18:00,881 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:18:01,156 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:18:01,156 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:18:01,156 - url monitoring - INFO -    Validate content
+2021-12-07 22:18:01,243 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:18:01,247 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:18:01,379 - url monitoring - INFO -    Request time: 0.13 seconds
+2021-12-07 22:18:01,380 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:18:01,380 - url monitoring - INFO -    Validate content
+2021-12-07 22:18:01,442 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:18:01,443 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:18:01,447 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:18:01,656 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:18:01,656 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:18:01,656 - url monitoring - INFO -    Validate content
+2021-12-07 22:18:01,750 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:18:01,750 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:18:01,753 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:18:02,073 - url monitoring - INFO -    Request time: 0.32 seconds
+2021-12-07 22:18:02,074 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:18:02,074 - url monitoring - INFO -    Validate content
+2021-12-07 22:18:02,163 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:18:02,167 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:18:02,169 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:19:01,761 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:19:01,763 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:19:01,764 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:19:02,080 - url monitoring - INFO -    Request time: 0.32 seconds
+2021-12-07 22:19:02,080 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:19:02,080 - url monitoring - INFO -    Validate content
+2021-12-07 22:19:02,159 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:19:02,163 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:19:02,307 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:19:02,307 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:19:02,308 - url monitoring - INFO -    Validate content
+2021-12-07 22:19:02,422 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:19:02,422 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:19:02,427 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:19:02,700 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:19:02,701 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:19:02,701 - url monitoring - INFO -    Validate content
+2021-12-07 22:19:02,804 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:19:02,804 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:19:02,816 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:19:03,268 - url monitoring - INFO -    Request time: 0.45 seconds
+2021-12-07 22:19:03,269 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:19:03,269 - url monitoring - INFO -    Validate content
+2021-12-07 22:19:03,332 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:19:03,338 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:19:03,345 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:20:00,819 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:20:00,821 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:20:00,822 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:20:01,349 - url monitoring - INFO -    Request time: 0.53 seconds
+2021-12-07 22:20:01,352 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:20:01,352 - url monitoring - INFO -    Validate content
+2021-12-07 22:20:01,541 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:20:01,545 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:20:01,793 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:20:01,795 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:20:01,795 - url monitoring - INFO -    Validate content
+2021-12-07 22:20:02,104 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:20:02,104 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:20:02,113 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:20:02,774 - url monitoring - INFO -    Request time: 0.66 seconds
+2021-12-07 22:20:02,775 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:20:02,775 - url monitoring - INFO -    Validate content
+2021-12-07 22:20:02,932 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:20:02,933 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:20:02,946 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:20:04,362 - url monitoring - INFO -    Request time: 1.42 seconds
+2021-12-07 22:20:04,362 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:20:04,362 - url monitoring - INFO -    Validate content
+2021-12-07 22:20:04,494 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:20:04,497 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:20:04,503 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:21:01,608 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:21:01,610 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:21:01,612 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:21:02,051 - url monitoring - INFO -    Request time: 0.44 seconds
+2021-12-07 22:21:02,052 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:21:02,052 - url monitoring - INFO -    Validate content
+2021-12-07 22:21:02,141 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:21:02,146 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:21:02,330 - url monitoring - INFO -    Request time: 0.18 seconds
+2021-12-07 22:21:02,330 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:21:02,330 - url monitoring - INFO -    Validate content
+2021-12-07 22:21:02,399 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:21:02,399 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:21:02,411 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:21:02,622 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:21:02,623 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:21:02,623 - url monitoring - INFO -    Validate content
+2021-12-07 22:21:02,789 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:21:02,790 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:21:02,804 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:21:03,181 - url monitoring - INFO -    Request time: 0.38 seconds
+2021-12-07 22:21:03,181 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:21:03,181 - url monitoring - INFO -    Validate content
+2021-12-07 22:21:03,327 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:21:03,350 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:21:03,383 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:22:02,030 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:22:02,036 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:22:02,042 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:22:03,759 - url monitoring - INFO -    Request time: 1.72 seconds
+2021-12-07 22:22:03,759 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:22:03,759 - url monitoring - INFO -    Validate content
+2021-12-07 22:22:03,843 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:22:03,872 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:22:04,655 - url monitoring - INFO -    Request time: 0.78 seconds
+2021-12-07 22:22:04,655 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:22:04,655 - url monitoring - INFO -    Validate content
+2021-12-07 22:22:04,906 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:22:04,906 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:22:04,916 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:22:05,933 - url monitoring - INFO -    Request time: 1.02 seconds
+2021-12-07 22:22:05,933 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:22:05,934 - url monitoring - INFO -    Validate content
+2021-12-07 22:22:06,177 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:22:06,178 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:22:06,180 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:22:06,852 - url monitoring - INFO -    Request time: 0.67 seconds
+2021-12-07 22:22:06,855 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:22:06,855 - url monitoring - INFO -    Validate content
+2021-12-07 22:22:06,935 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:22:06,940 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:22:06,948 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:23:00,777 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:23:00,777 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:23:00,777 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:23:01,110 - url monitoring - INFO -    Request time: 0.33 seconds
+2021-12-07 22:23:01,110 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:23:01,110 - url monitoring - INFO -    Validate content
+2021-12-07 22:23:01,211 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:23:01,215 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:23:01,449 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:23:01,449 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:23:01,449 - url monitoring - INFO -    Validate content
+2021-12-07 22:23:01,507 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:23:01,507 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:23:01,512 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:23:01,875 - url monitoring - INFO -    Request time: 0.36 seconds
+2021-12-07 22:23:01,875 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:23:01,876 - url monitoring - INFO -    Validate content
+2021-12-07 22:23:01,971 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:23:01,971 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:23:01,977 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:23:02,475 - url monitoring - INFO -    Request time: 0.50 seconds
+2021-12-07 22:23:02,475 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:23:02,475 - url monitoring - INFO -    Validate content
+2021-12-07 22:23:02,596 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:23:02,602 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:23:02,612 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:24:00,835 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:24:00,835 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:24:00,836 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:24:01,749 - url monitoring - INFO -    Request time: 0.91 seconds
+2021-12-07 22:24:01,749 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:24:01,749 - url monitoring - INFO -    Validate content
+2021-12-07 22:24:01,833 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:24:01,844 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:24:02,361 - url monitoring - INFO -    Request time: 0.52 seconds
+2021-12-07 22:24:02,361 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:24:02,362 - url monitoring - INFO -    Validate content
+2021-12-07 22:24:02,418 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:24:02,418 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:24:02,423 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:24:02,681 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:24:02,681 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:24:02,685 - url monitoring - INFO -    Validate content
+2021-12-07 22:24:02,832 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:24:02,832 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:24:02,836 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:24:03,105 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:24:03,106 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:24:03,106 - url monitoring - INFO -    Validate content
+2021-12-07 22:24:03,184 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:24:03,188 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:24:03,190 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:25:01,610 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:25:01,610 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:25:01,611 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:25:02,283 - url monitoring - INFO -    Request time: 0.67 seconds
+2021-12-07 22:25:02,283 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:25:02,283 - url monitoring - INFO -    Validate content
+2021-12-07 22:25:02,373 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:25:02,379 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:25:03,414 - url monitoring - INFO -    Request time: 1.03 seconds
+2021-12-07 22:25:03,415 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:25:03,415 - url monitoring - INFO -    Validate content
+2021-12-07 22:25:03,499 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:25:03,500 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:25:03,504 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:25:03,738 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:25:03,738 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:25:03,738 - url monitoring - INFO -    Validate content
+2021-12-07 22:25:03,896 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:25:03,896 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:25:03,898 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:25:04,465 - url monitoring - INFO -    Request time: 0.57 seconds
+2021-12-07 22:25:04,465 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:25:04,465 - url monitoring - INFO -    Validate content
+2021-12-07 22:25:04,545 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:25:04,550 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:25:04,553 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:26:01,895 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:26:01,896 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:26:01,897 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:26:02,682 - url monitoring - INFO -    Request time: 0.78 seconds
+2021-12-07 22:26:02,682 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:26:02,682 - url monitoring - INFO -    Validate content
+2021-12-07 22:26:02,748 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:26:02,751 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:26:03,059 - url monitoring - INFO -    Request time: 0.31 seconds
+2021-12-07 22:26:03,059 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:26:03,059 - url monitoring - INFO -    Validate content
+2021-12-07 22:26:03,117 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:26:03,118 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:26:03,120 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:26:03,430 - url monitoring - INFO -    Request time: 0.31 seconds
+2021-12-07 22:26:03,431 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:26:03,480 - url monitoring - INFO -    Validate content
+2021-12-07 22:26:03,626 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:26:03,626 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:26:03,628 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:26:04,235 - url monitoring - INFO -    Request time: 0.61 seconds
+2021-12-07 22:26:04,235 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:26:04,236 - url monitoring - INFO -    Validate content
+2021-12-07 22:26:04,311 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:26:04,314 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:26:04,317 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:27:01,808 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:27:01,827 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:27:01,839 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:27:03,384 - url monitoring - INFO -    Request time: 1.54 seconds
+2021-12-07 22:27:03,384 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:27:03,384 - url monitoring - INFO -    Validate content
+2021-12-07 22:27:03,476 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:27:03,487 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:27:03,702 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:27:03,703 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:27:03,703 - url monitoring - INFO -    Validate content
+2021-12-07 22:27:03,758 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:27:03,758 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:27:03,771 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:27:03,955 - url monitoring - INFO -    Request time: 0.18 seconds
+2021-12-07 22:27:03,955 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:27:03,955 - url monitoring - INFO -    Validate content
+2021-12-07 22:27:04,039 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:27:04,039 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:27:04,049 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:27:04,303 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:27:04,305 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:27:04,305 - url monitoring - INFO -    Validate content
+2021-12-07 22:27:04,377 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:27:04,381 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:27:04,384 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:28:00,848 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:28:00,849 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:28:00,850 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:28:01,154 - url monitoring - INFO -    Request time: 0.30 seconds
+2021-12-07 22:28:01,154 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:28:01,154 - url monitoring - INFO -    Validate content
+2021-12-07 22:28:01,220 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:28:01,231 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:28:01,496 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:28:01,496 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:28:01,496 - url monitoring - INFO -    Validate content
+2021-12-07 22:28:01,542 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:28:01,543 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:28:01,547 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:28:01,814 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:28:01,814 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:28:01,814 - url monitoring - INFO -    Validate content
+2021-12-07 22:28:01,895 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:28:01,895 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:28:01,898 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:28:02,334 - url monitoring - INFO -    Request time: 0.43 seconds
+2021-12-07 22:28:02,334 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:28:02,334 - url monitoring - INFO -    Validate content
+2021-12-07 22:28:02,474 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:28:02,479 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:28:02,482 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:29:01,232 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:29:01,238 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:29:01,240 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:29:01,598 - url monitoring - INFO -    Request time: 0.36 seconds
+2021-12-07 22:29:01,599 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:29:01,599 - url monitoring - INFO -    Validate content
+2021-12-07 22:29:01,676 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:29:01,682 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:29:01,885 - url monitoring - INFO -    Request time: 0.20 seconds
+2021-12-07 22:29:01,885 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:29:01,886 - url monitoring - INFO -    Validate content
+2021-12-07 22:29:01,928 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:29:01,928 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:29:01,933 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:29:02,117 - url monitoring - INFO -    Request time: 0.18 seconds
+2021-12-07 22:29:02,118 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:29:02,118 - url monitoring - INFO -    Validate content
+2021-12-07 22:29:02,292 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:29:02,292 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:29:02,304 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:29:02,586 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:29:02,587 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:29:02,587 - url monitoring - INFO -    Validate content
+2021-12-07 22:29:02,713 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:29:02,716 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:29:02,721 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:30:00,885 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:30:00,886 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:30:00,886 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:30:01,224 - url monitoring - INFO -    Request time: 0.34 seconds
+2021-12-07 22:30:01,224 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:30:01,224 - url monitoring - INFO -    Validate content
+2021-12-07 22:30:01,289 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:30:01,295 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:30:01,439 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:30:01,439 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:30:01,439 - url monitoring - INFO -    Validate content
+2021-12-07 22:30:01,484 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:30:01,484 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:30:01,488 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:30:01,686 - url monitoring - INFO -    Request time: 0.20 seconds
+2021-12-07 22:30:01,686 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:30:01,686 - url monitoring - INFO -    Validate content
+2021-12-07 22:30:01,751 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:30:01,751 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:30:01,754 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:30:02,056 - url monitoring - INFO -    Request time: 0.30 seconds
+2021-12-07 22:30:02,056 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:30:02,056 - url monitoring - INFO -    Validate content
+2021-12-07 22:30:02,114 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:30:02,118 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:30:02,120 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:31:02,201 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:31:02,203 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:31:02,204 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:31:02,585 - url monitoring - INFO -    Request time: 0.38 seconds
+2021-12-07 22:31:02,586 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:31:02,586 - url monitoring - INFO -    Validate content
+2021-12-07 22:31:02,652 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:31:02,664 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:31:02,946 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:31:02,946 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:31:02,946 - url monitoring - INFO -    Validate content
+2021-12-07 22:31:02,996 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:31:02,996 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:31:02,999 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:31:03,291 - url monitoring - INFO -    Request time: 0.29 seconds
+2021-12-07 22:31:03,291 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:31:03,291 - url monitoring - INFO -    Validate content
+2021-12-07 22:31:03,569 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:31:03,569 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:31:03,573 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:31:03,835 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:31:03,835 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:31:03,835 - url monitoring - INFO -    Validate content
+2021-12-07 22:31:03,900 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:31:03,905 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:31:03,908 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:32:01,180 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:32:01,180 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:32:01,181 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:32:01,507 - url monitoring - INFO -    Request time: 0.33 seconds
+2021-12-07 22:32:01,507 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:32:01,507 - url monitoring - INFO -    Validate content
+2021-12-07 22:32:01,612 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:32:01,622 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:32:01,759 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:32:01,760 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:32:01,760 - url monitoring - INFO -    Validate content
+2021-12-07 22:32:01,803 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:32:01,803 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:32:01,808 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:32:02,019 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:32:02,019 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:32:02,019 - url monitoring - INFO -    Validate content
+2021-12-07 22:32:02,316 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:32:02,316 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:32:02,321 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:32:02,582 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:32:02,582 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:32:02,582 - url monitoring - INFO -    Validate content
+2021-12-07 22:32:02,754 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:32:02,757 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:32:02,760 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:33:00,814 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:33:00,814 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:33:00,816 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:33:01,099 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:33:01,099 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:33:01,100 - url monitoring - INFO -    Validate content
+2021-12-07 22:33:01,190 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:33:01,194 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:33:01,328 - url monitoring - INFO -    Request time: 0.13 seconds
+2021-12-07 22:33:01,328 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:33:01,328 - url monitoring - INFO -    Validate content
+2021-12-07 22:33:01,372 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:33:01,373 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:33:01,376 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:33:01,674 - url monitoring - INFO -    Request time: 0.30 seconds
+2021-12-07 22:33:01,680 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:33:01,681 - url monitoring - INFO -    Validate content
+2021-12-07 22:33:01,875 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:33:01,875 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:33:01,880 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:33:02,110 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:33:02,111 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:33:02,111 - url monitoring - INFO -    Validate content
+2021-12-07 22:33:02,166 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:33:02,170 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:33:02,174 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:34:01,332 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:34:01,333 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:34:01,334 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:34:01,600 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:34:01,600 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:34:01,601 - url monitoring - INFO -    Validate content
+2021-12-07 22:34:01,752 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:34:01,756 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:34:02,124 - url monitoring - INFO -    Request time: 0.37 seconds
+2021-12-07 22:34:02,124 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:34:02,124 - url monitoring - INFO -    Validate content
+2021-12-07 22:34:02,167 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:34:02,167 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:34:02,172 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:34:02,406 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:34:02,406 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:34:02,406 - url monitoring - INFO -    Validate content
+2021-12-07 22:34:02,478 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:34:02,479 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:34:02,480 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:34:02,870 - url monitoring - INFO -    Request time: 0.39 seconds
+2021-12-07 22:34:02,870 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:34:02,870 - url monitoring - INFO -    Validate content
+2021-12-07 22:34:03,060 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:34:03,095 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:34:03,120 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:35:01,387 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:35:01,388 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:35:01,388 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:35:01,702 - url monitoring - INFO -    Request time: 0.31 seconds
+2021-12-07 22:35:01,702 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:35:01,702 - url monitoring - INFO -    Validate content
+2021-12-07 22:35:01,777 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:35:01,779 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:35:01,941 - url monitoring - INFO -    Request time: 0.16 seconds
+2021-12-07 22:35:01,941 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:35:01,941 - url monitoring - INFO -    Validate content
+2021-12-07 22:35:01,995 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:35:01,995 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:35:02,000 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:35:02,416 - url monitoring - INFO -    Request time: 0.41 seconds
+2021-12-07 22:35:02,416 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:35:02,416 - url monitoring - INFO -    Validate content
+2021-12-07 22:35:02,569 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:35:02,570 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:35:02,573 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:35:04,622 - url monitoring - INFO -    Request time: 2.05 seconds
+2021-12-07 22:35:04,623 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:35:04,623 - url monitoring - INFO -    Validate content
+2021-12-07 22:35:04,679 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:35:04,682 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:35:04,685 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:36:00,629 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:36:00,629 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:36:00,630 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:36:00,942 - url monitoring - INFO -    Request time: 0.31 seconds
+2021-12-07 22:36:00,942 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:36:00,943 - url monitoring - INFO -    Validate content
+2021-12-07 22:36:01,056 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:36:01,059 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:36:01,230 - url monitoring - INFO -    Request time: 0.17 seconds
+2021-12-07 22:36:01,230 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:36:01,230 - url monitoring - INFO -    Validate content
+2021-12-07 22:36:01,314 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:36:01,314 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:36:01,318 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:36:01,530 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:36:01,530 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:36:01,530 - url monitoring - INFO -    Validate content
+2021-12-07 22:36:01,602 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:36:01,602 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:36:01,607 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:36:01,819 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:36:01,820 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:36:01,820 - url monitoring - INFO -    Validate content
+2021-12-07 22:36:02,064 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:36:02,070 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:36:02,086 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:37:01,644 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:37:01,644 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:37:01,645 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:37:01,895 - url monitoring - INFO -    Request time: 0.25 seconds
+2021-12-07 22:37:01,895 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:37:01,895 - url monitoring - INFO -    Validate content
+2021-12-07 22:37:01,975 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:37:01,981 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:37:02,217 - url monitoring - INFO -    Request time: 0.24 seconds
+2021-12-07 22:37:02,217 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:37:02,217 - url monitoring - INFO -    Validate content
+2021-12-07 22:37:02,269 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:37:02,269 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:37:02,275 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:37:02,499 - url monitoring - INFO -    Request time: 0.22 seconds
+2021-12-07 22:37:02,499 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:37:02,500 - url monitoring - INFO -    Validate content
+2021-12-07 22:37:02,567 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:37:02,567 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:37:02,570 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:37:02,803 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:37:02,803 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:37:02,803 - url monitoring - INFO -    Validate content
+2021-12-07 22:37:02,917 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:37:02,922 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:37:02,925 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:38:01,156 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:38:01,156 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:38:01,157 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:38:01,422 - url monitoring - INFO -    Request time: 0.27 seconds
+2021-12-07 22:38:01,422 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:38:01,422 - url monitoring - INFO -    Validate content
+2021-12-07 22:38:01,515 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:38:01,517 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:38:01,659 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:38:01,659 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:38:01,659 - url monitoring - INFO -    Validate content
+2021-12-07 22:38:01,766 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:38:01,766 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:38:01,771 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:38:02,002 - url monitoring - INFO -    Request time: 0.23 seconds
+2021-12-07 22:38:02,002 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:38:02,002 - url monitoring - INFO -    Validate content
+2021-12-07 22:38:02,152 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:38:02,152 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:38:02,157 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:38:02,462 - url monitoring - INFO -    Request time: 0.30 seconds
+2021-12-07 22:38:02,462 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:38:02,462 - url monitoring - INFO -    Validate content
+2021-12-07 22:38:02,606 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:38:02,612 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:38:02,617 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:39:00,696 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:39:00,698 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:39:00,698 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:39:01,097 - url monitoring - INFO -    Request time: 0.40 seconds
+2021-12-07 22:39:01,097 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:39:01,097 - url monitoring - INFO -    Validate content
+2021-12-07 22:39:01,162 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:39:01,171 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:39:01,306 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:39:01,306 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:39:01,306 - url monitoring - INFO -    Validate content
+2021-12-07 22:39:01,349 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:39:01,349 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:39:01,361 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:39:01,550 - url monitoring - INFO -    Request time: 0.19 seconds
+2021-12-07 22:39:01,550 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:39:01,550 - url monitoring - INFO -    Validate content
+2021-12-07 22:39:01,614 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:39:01,615 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:39:01,618 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:39:01,880 - url monitoring - INFO -    Request time: 0.26 seconds
+2021-12-07 22:39:01,880 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:39:01,880 - url monitoring - INFO -    Validate content
+2021-12-07 22:39:01,951 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:39:01,970 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:39:01,973 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:40:01,295 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:40:01,295 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:40:01,297 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:40:01,578 - url monitoring - INFO -    Request time: 0.28 seconds
+2021-12-07 22:40:01,578 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:40:01,578 - url monitoring - INFO -    Validate content
+2021-12-07 22:40:01,643 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:40:01,652 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:40:01,811 - url monitoring - INFO -    Request time: 0.16 seconds
+2021-12-07 22:40:01,812 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:40:01,812 - url monitoring - INFO -    Validate content
+2021-12-07 22:40:01,854 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:40:01,854 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:40:01,859 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:40:02,035 - url monitoring - INFO -    Request time: 0.18 seconds
+2021-12-07 22:40:02,035 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:40:02,035 - url monitoring - INFO -    Validate content
+2021-12-07 22:40:02,098 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:40:02,098 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:40:02,101 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:40:02,392 - url monitoring - INFO -    Request time: 0.29 seconds
+2021-12-07 22:40:02,392 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:40:02,392 - url monitoring - INFO -    Validate content
+2021-12-07 22:40:02,541 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:40:02,544 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:40:02,547 - url monitoring - ERROR -    Failed to establish a new connection
+2021-12-07 22:41:01,727 - url monitoring - INFO - Input arguments: Namespace(urls_file_path='configuration.json')
+2021-12-07 22:41:01,727 - url monitoring - INFO - Reading configuration file: configuration.json
+2021-12-07 22:41:01,729 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:41:01,973 - url monitoring - INFO -    Request time: 0.24 seconds
+2021-12-07 22:41:01,973 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:41:01,973 - url monitoring - INFO -    Validate content
+2021-12-07 22:41:02,038 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:41:02,041 - url monitoring - INFO - Validating https://www.aamulehti.fi
+2021-12-07 22:41:02,176 - url monitoring - INFO -    Request time: 0.14 seconds
+2021-12-07 22:41:02,177 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:41:02,177 - url monitoring - INFO -    Validate content
+2021-12-07 22:41:02,220 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Aamulehti' is not 'Helsingin Sanomat'
+2021-12-07 22:41:02,221 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:41:02,224 - url monitoring - INFO - Validating http://hs.fi
+2021-12-07 22:41:02,567 - url monitoring - INFO -    Request time: 0.34 seconds
+2021-12-07 22:41:02,567 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:41:02,567 - url monitoring - INFO -    Validate content
+2021-12-07 22:41:02,631 - url monitoring - ERROR -    Content doesn't match requirements. Title 'Helsingin Sanomat' is not 'Helsingin Sanomata'
+2021-12-07 22:41:02,632 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:41:02,635 - url monitoring - INFO - Validating http://is.fi
+2021-12-07 22:41:02,845 - url monitoring - INFO -    Request time: 0.21 seconds
+2021-12-07 22:41:02,845 - url monitoring - INFO -    Response code: 200, OK
+2021-12-07 22:41:02,845 - url monitoring - INFO -    Validate content
+2021-12-07 22:41:02,916 - url monitoring - INFO -    Insert record to database
+2021-12-07 22:41:02,926 - url monitoring - INFO - Validating http://issdfs.fi
+2021-12-07 22:41:02,943 - url monitoring - ERROR -    Failed to establish a new connection

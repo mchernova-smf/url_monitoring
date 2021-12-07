@@ -1,0 +1,32 @@
+[
+    {
+      "url": "http://hs.fi",
+      "content_requirements": {
+        "title": "Helsingin Sanomat"
+      }
+    },
+    {
+      "url": "https://www.aamulehti.fi",
+      "content_requirements": {
+        "title": "Helsingin Sanomat"
+      }
+    },
+    {
+      "url": "http://hs.fi",
+      "content_requirements": {
+        "title": "Helsingin Sanomata"
+      }
+    },
+    {
+      "url": "http://is.fi",
+      "content_requirements": {
+        "title": "Ilta-Sanomat"
+      }
+    },
+    {
+      "url": "http://issdfs.fi",
+      "content_requirements": {
+        "title": "Ilta-Sanomat"
+      }
+    }
+  ]
